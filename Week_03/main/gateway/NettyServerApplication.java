@@ -2,6 +2,10 @@ package gateway;
 
 import gateway.inbound.HttpInboundServer;
 
+/**
+ * @author chenjia
+ * @date 2020/11/03
+ */
 public class NettyServerApplication {
 
     private final static String GATEWAY_NAME = "NIOGateway";
