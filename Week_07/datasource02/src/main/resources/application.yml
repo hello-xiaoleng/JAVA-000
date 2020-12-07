@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    master:
+      url: jdbc:mysql://115.159.145.200:3306/db
+      username: root
+      password: Ctcf1805
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+    slave1:
+      url: jdbc:mysql://115.159.145.200:3307/db
+      username: mysql-slave
+      password: Ctcf1805
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+#logging:
+#  config: classpath:logback.xml
+#  file:
+#    path: ../logs/datasource
